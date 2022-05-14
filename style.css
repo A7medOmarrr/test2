@@ -1,0 +1,52 @@
+body{
+    background-color: #222;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    width:90% ;
+    margin: auto;
+    padding: 10px 0px;
+}
+.item{
+width: 25%;
+background-color: teal;
+float: left;
+position: relative;
+}
+
+.item img{
+    width: 100%;
+}
+
+.layer{
+    background-color:rgba(42,63,85, 0.7);
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    height: 100%;
+    transition: top 1s;
+    
+}
+
+.item:hover .layer{
+    top: 0px;
+
+
+}
+
+.layer h3{
+    background-color:rgba(42,63,85) ;
+    padding: 20px;
+}
+.layer p{
+    font-size: 20px;
+    padding: 20px;
+}
+
+.clr{
+    clear: both;
+}
+
